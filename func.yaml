@@ -9,3 +9,5 @@ build:
   builder: pack
   platform: linux/amd64
 serviceAccountName: ronghuanz
+deploy:
+  serviceAccountName: ronghuanz
