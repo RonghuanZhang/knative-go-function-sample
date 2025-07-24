@@ -8,4 +8,4 @@ created: 2025-07-21T17:49:26.84974+08:00
 build:
   builder: pack
   platform: linux/amd64
-
+serviceAccountName: ronghuanz
