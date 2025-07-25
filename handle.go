@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"net/http/httputil"
+	"os"
 )
 
 // Handle an HTTP Request.
@@ -20,7 +21,10 @@ func Handle(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	name := os.Getenv("name")
+
 	fmt.Println("Received request")
 	fmt.Printf("%q\n", dump)
 	fmt.Fprintf(w, "%q", dump)
+	fmt.Printf("\nname=%s\n", name)
 }
