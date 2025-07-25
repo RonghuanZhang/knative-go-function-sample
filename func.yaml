@@ -3,8 +3,4 @@
 specVersion: 0.36.0
 name: func-test
 runtime: go
-registry: us-central1-docker.pkg.dev/hive-451307/hive
 created: 2025-07-21T17:49:26.84974+08:00
-build:
-  builder: pack
-  platform: linux/amd64
