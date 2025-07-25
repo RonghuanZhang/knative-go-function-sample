@@ -10,7 +10,3 @@ build:
   git:
     url: https://github.com/RonghuanZhang/knative-go-function-sample.git
   builder: pack
-deploy:
-  namespace: ronghuanz
-  image: us-central1-docker.pkg.dev/hive-451307/hive/ronghuanz/func-go-01:latest
-  serviceAccountName: ronghuanz
