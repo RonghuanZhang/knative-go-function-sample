@@ -4,4 +4,3 @@ specVersion: 0.36.0
 name: func-go-01
 runtime: go
 created: 2025-07-21T17:49:26.84974+08:00
-serviceAccountName: ronghuanz
