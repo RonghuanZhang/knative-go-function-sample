@@ -13,6 +13,6 @@ build:
 run:
   envs:
   - name: name
-    value: erpang
+    value: hive-erpang-test-01
 deploy:
   serviceAccountName: ronghuanz
