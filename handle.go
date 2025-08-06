@@ -25,6 +25,6 @@ func Handle(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Println("Received request")
 	fmt.Printf("%q\n", dump)
-	fmt.Fprintf(w, "%q", dump)
+	fmt.Fprintf(w, "%q\nname=%s\n", dump, name)
 	fmt.Printf("\nname=%s\n", name)
 }
